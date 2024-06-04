@@ -137,3 +137,6 @@ const products = [
       })
     }
   );
+  cartBtn.addEventListener("click", () => {
+    isCartShowing = !isCartShowing;
+  });
