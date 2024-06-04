@@ -130,7 +130,7 @@ const products = [
         return this.items.length;
       }
       calculateTaxes(amount) {
-        return (this.taxRate / 100) * amount;
+        return parseFloat(((this.taxRate / 100) * amount).toFixed(2));
       }
       calculateTotal() {
         const subTotal = this.items.reduce((total, item) => total + item.price, 0);
