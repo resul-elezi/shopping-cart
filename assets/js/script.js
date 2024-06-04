@@ -127,3 +127,4 @@ const products = [
           </div>`;
       }
   };
+  const cart = new ShoppingCart();
