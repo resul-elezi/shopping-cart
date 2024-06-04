@@ -126,6 +126,9 @@ const products = [
             <p>${price}</p>
           </div>`;
       }
+      getCounts() {
+        return this.items.length;
+      }
   };
   const cart = new ShoppingCart();
   const addToCartBtns = document.getElementsByClassName("add-to-cart-btn");
