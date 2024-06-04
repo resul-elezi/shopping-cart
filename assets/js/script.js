@@ -133,7 +133,7 @@ const products = [
   [...addToCartBtns].forEach(
     (btn) => {
       btn.addEventListener("click", (event) => {
-  
+      cart.addItem(Number(event.target.id), products);
       })
     }
   );
