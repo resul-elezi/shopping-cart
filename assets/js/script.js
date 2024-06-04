@@ -118,5 +118,6 @@ const products = [
           })
           const currentProductCount = totalCountPerProduct[product.id];
           const currentProductCountSpan = document.getElementById(`product-count-for-id${id}`);
+          currentProductCount > 1 ? undefined : undefined;
       }
   };
